@@ -20,10 +20,10 @@ export default function Navbar() {
         <div className="navbar-auth">
           {!user ? (
             <div className="navbar-auth-links">
-              <Link to="/auth" className="btn btn-secondary">
+              <Link to="/auth?mode=login" className="btn btn-secondary">
                 Ingresar
               </Link>
-              <Link to="/auth" className="btn btn-primary">
+              <Link to="/auth?mode=signup" className="btn btn-primary">
                 Registrarse
               </Link>
             </div>
